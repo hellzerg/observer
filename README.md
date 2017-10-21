@@ -17,7 +17,7 @@ https://github.com/hellzerg/observer/releases
 
 ## Compatibility: ##
 
-.NET Framework 4.5
+.NET Framework 4.5.2
  
 Compatible with Windows 7, 8, 8.1, 10
 
