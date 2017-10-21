@@ -5,10 +5,6 @@ Disk activity observation tool
 ## Features: ##
 
 * Monitors disk activity
-* Objects created event
-* Objects modified event
-* Objects renamed event
-* Objects deleted event
 * Exclusions supported
 * Export logs supported
 
