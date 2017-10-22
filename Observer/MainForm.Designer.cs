@@ -297,7 +297,7 @@
             // 
             // btnExclusions
             // 
-            this.btnExclusions.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExclusions.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnExclusions.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnExclusions.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
             this.btnExclusions.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
@@ -315,7 +315,7 @@
             // 
             // btnExport
             // 
-            this.btnExport.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExport.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnExport.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnExport.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
             this.btnExport.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
