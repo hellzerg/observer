@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.2] - 2017-12-17
+## [1.2] - 2017-12-04
 - Export log information corrected
 - Rare bug fixes
 
