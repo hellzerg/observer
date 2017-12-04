@@ -63,9 +63,10 @@
             this.txtPath.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPath.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPath.ForeColor = System.Drawing.Color.White;
-            this.txtPath.Location = new System.Drawing.Point(70, 12);
+            this.txtPath.Location = new System.Drawing.Point(56, 10);
+            this.txtPath.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPath.Name = "txtPath";
-            this.txtPath.Size = new System.Drawing.Size(682, 34);
+            this.txtPath.Size = new System.Drawing.Size(567, 29);
             this.txtPath.TabIndex = 1;
             // 
             // btnAbout
@@ -77,9 +78,10 @@
             this.btnAbout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.RoyalBlue;
             this.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAbout.ForeColor = System.Drawing.Color.White;
-            this.btnAbout.Location = new System.Drawing.Point(893, 12);
+            this.btnAbout.Location = new System.Drawing.Point(735, 10);
+            this.btnAbout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAbout.Name = "btnAbout";
-            this.btnAbout.Size = new System.Drawing.Size(86, 34);
+            this.btnAbout.Size = new System.Drawing.Size(69, 27);
             this.btnAbout.TabIndex = 83;
             this.btnAbout.Tag = "themeable";
             this.btnAbout.Text = "About";
@@ -95,9 +97,10 @@
             this.btnOptions.FlatAppearance.MouseOverBackColor = System.Drawing.Color.RoyalBlue;
             this.btnOptions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOptions.ForeColor = System.Drawing.Color.White;
-            this.btnOptions.Location = new System.Drawing.Point(801, 12);
+            this.btnOptions.Location = new System.Drawing.Point(662, 10);
+            this.btnOptions.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnOptions.Name = "btnOptions";
-            this.btnOptions.Size = new System.Drawing.Size(86, 34);
+            this.btnOptions.Size = new System.Drawing.Size(69, 27);
             this.btnOptions.TabIndex = 82;
             this.btnOptions.Tag = "themeable";
             this.btnOptions.Text = "Options";
@@ -113,9 +116,10 @@
             this.btnBrowse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.RoyalBlue;
             this.btnBrowse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBrowse.ForeColor = System.Drawing.Color.White;
-            this.btnBrowse.Location = new System.Drawing.Point(758, 12);
+            this.btnBrowse.Location = new System.Drawing.Point(627, 10);
+            this.btnBrowse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBrowse.Name = "btnBrowse";
-            this.btnBrowse.Size = new System.Drawing.Size(37, 34);
+            this.btnBrowse.Size = new System.Drawing.Size(30, 27);
             this.btnBrowse.TabIndex = 81;
             this.btnBrowse.Tag = "themeable";
             this.btnBrowse.Text = "...";
@@ -128,9 +132,10 @@
             this.checkModified.Checked = true;
             this.checkModified.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkModified.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.checkModified.Location = new System.Drawing.Point(12, 52);
+            this.checkModified.Location = new System.Drawing.Point(10, 42);
+            this.checkModified.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkModified.Name = "checkModified";
-            this.checkModified.Size = new System.Drawing.Size(120, 24);
+            this.checkModified.Size = new System.Drawing.Size(95, 19);
             this.checkModified.TabIndex = 84;
             this.checkModified.Tag = "themeable";
             this.checkModified.Text = "File modified";
@@ -143,9 +148,10 @@
             this.checkCreated.Checked = true;
             this.checkCreated.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkCreated.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.checkCreated.Location = new System.Drawing.Point(138, 52);
+            this.checkCreated.Location = new System.Drawing.Point(110, 42);
+            this.checkCreated.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkCreated.Name = "checkCreated";
-            this.checkCreated.Size = new System.Drawing.Size(110, 24);
+            this.checkCreated.Size = new System.Drawing.Size(86, 19);
             this.checkCreated.TabIndex = 85;
             this.checkCreated.Tag = "themeable";
             this.checkCreated.Text = "File created";
@@ -158,9 +164,10 @@
             this.checkDeleted.Checked = true;
             this.checkDeleted.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkDeleted.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.checkDeleted.Location = new System.Drawing.Point(254, 52);
+            this.checkDeleted.Location = new System.Drawing.Point(203, 42);
+            this.checkDeleted.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkDeleted.Name = "checkDeleted";
-            this.checkDeleted.Size = new System.Drawing.Size(110, 24);
+            this.checkDeleted.Size = new System.Drawing.Size(86, 19);
             this.checkDeleted.TabIndex = 86;
             this.checkDeleted.Tag = "themeable";
             this.checkDeleted.Text = "File deleted";
@@ -173,9 +180,10 @@
             this.checkRenamed.Checked = true;
             this.checkRenamed.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkRenamed.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.checkRenamed.Location = new System.Drawing.Point(370, 52);
+            this.checkRenamed.Location = new System.Drawing.Point(296, 42);
+            this.checkRenamed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkRenamed.Name = "checkRenamed";
-            this.checkRenamed.Size = new System.Drawing.Size(120, 24);
+            this.checkRenamed.Size = new System.Drawing.Size(94, 19);
             this.checkRenamed.TabIndex = 87;
             this.checkRenamed.Tag = "themeable";
             this.checkRenamed.Text = "File renamed";
@@ -187,9 +195,10 @@
             this.lblStatus.AutoSize = true;
             this.lblStatus.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStatus.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblStatus.Location = new System.Drawing.Point(7, 12);
+            this.lblStatus.Location = new System.Drawing.Point(6, 10);
+            this.lblStatus.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(57, 28);
+            this.lblStatus.Size = new System.Drawing.Size(46, 21);
             this.lblStatus.TabIndex = 88;
             this.lblStatus.Tag = "themeable";
             this.lblStatus.Text = "Path:";
@@ -209,9 +218,10 @@
             this.columnHeader4});
             this.eventList.ForeColor = System.Drawing.Color.White;
             this.eventList.FullRowSelect = true;
-            this.eventList.Location = new System.Drawing.Point(12, 82);
+            this.eventList.Location = new System.Drawing.Point(10, 66);
+            this.eventList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.eventList.Name = "eventList";
-            this.eventList.Size = new System.Drawing.Size(967, 463);
+            this.eventList.Size = new System.Drawing.Size(795, 371);
             this.eventList.TabIndex = 89;
             this.eventList.UseCompatibleStateImageBehavior = false;
             this.eventList.View = System.Windows.Forms.View.Details;
@@ -221,7 +231,7 @@
             // columnHeader1
             // 
             this.columnHeader1.Text = "File/Folder";
-            this.columnHeader1.Width = 656;
+            this.columnHeader1.Width = 489;
             // 
             // columnHeader2
             // 
@@ -247,9 +257,10 @@
             this.btnStart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.RoyalBlue;
             this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStart.ForeColor = System.Drawing.Color.White;
-            this.btnStart.Location = new System.Drawing.Point(12, 554);
+            this.btnStart.Location = new System.Drawing.Point(10, 443);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(86, 34);
+            this.btnStart.Size = new System.Drawing.Size(69, 27);
             this.btnStart.TabIndex = 90;
             this.btnStart.Tag = "themeable";
             this.btnStart.Text = "Start";
@@ -266,9 +277,10 @@
             this.btnStop.FlatAppearance.MouseOverBackColor = System.Drawing.Color.RoyalBlue;
             this.btnStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStop.ForeColor = System.Drawing.Color.White;
-            this.btnStop.Location = new System.Drawing.Point(104, 554);
+            this.btnStop.Location = new System.Drawing.Point(83, 443);
+            this.btnStop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(86, 34);
+            this.btnStop.Size = new System.Drawing.Size(69, 27);
             this.btnStop.TabIndex = 93;
             this.btnStop.Tag = "themeable";
             this.btnStop.Text = "Stop";
@@ -304,9 +316,10 @@
             this.btnExclusions.FlatAppearance.MouseOverBackColor = System.Drawing.Color.RoyalBlue;
             this.btnExclusions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExclusions.ForeColor = System.Drawing.Color.White;
-            this.btnExclusions.Location = new System.Drawing.Point(196, 554);
+            this.btnExclusions.Location = new System.Drawing.Point(157, 443);
+            this.btnExclusions.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExclusions.Name = "btnExclusions";
-            this.btnExclusions.Size = new System.Drawing.Size(96, 34);
+            this.btnExclusions.Size = new System.Drawing.Size(77, 27);
             this.btnExclusions.TabIndex = 94;
             this.btnExclusions.Tag = "themeable";
             this.btnExclusions.Text = "Exclusions";
@@ -322,9 +335,10 @@
             this.btnExport.FlatAppearance.MouseOverBackColor = System.Drawing.Color.RoyalBlue;
             this.btnExport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExport.ForeColor = System.Drawing.Color.White;
-            this.btnExport.Location = new System.Drawing.Point(298, 554);
+            this.btnExport.Location = new System.Drawing.Point(238, 443);
+            this.btnExport.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(96, 34);
+            this.btnExport.Size = new System.Drawing.Size(77, 27);
             this.btnExport.TabIndex = 95;
             this.btnExport.Tag = "themeable";
             this.btnExport.Text = "Export log";
@@ -337,9 +351,10 @@
             this.chkExclusions.Checked = true;
             this.chkExclusions.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkExclusions.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.chkExclusions.Location = new System.Drawing.Point(496, 52);
+            this.chkExclusions.Location = new System.Drawing.Point(397, 42);
+            this.chkExclusions.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkExclusions.Name = "chkExclusions";
-            this.chkExclusions.Size = new System.Drawing.Size(151, 24);
+            this.chkExclusions.Size = new System.Drawing.Size(119, 19);
             this.chkExclusions.TabIndex = 96;
             this.chkExclusions.Tag = "themeable";
             this.chkExclusions.Text = "Enable exclusions";
@@ -348,10 +363,10 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ClientSize = new System.Drawing.Size(991, 597);
+            this.ClientSize = new System.Drawing.Size(814, 478);
             this.Controls.Add(this.chkExclusions);
             this.Controls.Add(this.btnExport);
             this.Controls.Add(this.btnExclusions);
@@ -370,6 +385,7 @@
             this.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Observer";

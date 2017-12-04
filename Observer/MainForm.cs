@@ -78,8 +78,8 @@ namespace Observer
                 foreach (ListViewItem i in eventList.Items)
                 {
                     sb.AppendFormat("Object: {0}\n", i.Text);
-                    sb.AppendFormat("Last accessed: {0}\n", i.SubItems[0].Text);
-                    sb.AppendFormat("Access count: {0}\n", i.SubItems[1].Text);
+                    sb.AppendFormat("Last accessed: {0}\n", i.SubItems[1].Text);
+                    sb.AppendFormat("Access count: {0}\n", i.SubItems[2].Text);
                     sb.AppendFormat("Access type: {0}\n\n", i.Tag.ToString());
                 }
 
@@ -293,7 +293,7 @@ namespace Observer
         {
             if (_folderBrowserDialog.ShowDialog() == DialogResult.OK)
             {
-                txtPath.Text = _folderBrowserDialog.SelectedPath + '\\';
+                txtPath.Text = _folderBrowserDialog.SelectedPath;
             }
         }
 
@@ -307,6 +307,7 @@ namespace Observer
         {
             if (!string.IsNullOrEmpty(txtPath.Text))
             {
+                if (txtPath.Text.Last() != '\\') txtPath.AppendText("\\");
                 StartObserving();
             }
         }
@@ -366,9 +367,16 @@ namespace Observer
         {
             try
             {
-                if (Directory.Exists(Path.GetDirectoryName(eventList.SelectedItems[0].SubItems[0].Text)))
+                if (File.Exists(eventList.SelectedItems[0].SubItems[0].Text))
                 {
-                    Process.Start(Path.GetDirectoryName(eventList.SelectedItems[0].SubItems[0].Text));
+                    Process.Start("explorer.exe", "/select, " + eventList.SelectedItems[0].SubItems[0].Text);
+                }
+                else
+                {
+                    if (Directory.Exists(eventList.SelectedItems[0].SubItems[0].Text))
+                    {
+                        Process.Start(eventList.SelectedItems[0].SubItems[0].Text);
+                    }
                 }
             }
             catch { }

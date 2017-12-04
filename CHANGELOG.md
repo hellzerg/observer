@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2] - 2017-12-17
+- Export log information corrected
+- Rare bug fixes
+
 ## [1.1] - 2017-10-21
 - Various bug fixes
 - Multiple exclusions supported
