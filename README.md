@@ -11,6 +11,9 @@ Disk activity observation tool
 ## Downloads: ##
 https://github.com/hellzerg/observer/releases
 
+## Screenshots: ##
+https://github.com/hellzerg/observer/blob/master/IMAGES.md
+
 ## Compatibility: ##
 
 .NET Framework 4.5.2
